@@ -8,9 +8,10 @@ second_nr = base[random.randint(0, len(base)-1)]
 
 print(f"{first_nr} x {second_nr} = ")
 
-score = int(input())
 should_repet = True
 while (should_repet):
+    score = int(input())
+
     if score == first_nr * second_nr:
         print("BARDZO DOBRZE")
         should_repet = False
